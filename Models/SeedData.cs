@@ -51,6 +51,33 @@ public static class SeedData
                     Genre = "Western",
                     Rating = "R",
                     Price = 3.99M
+                },
+
+                new Movie
+                {
+                    Title = "Harry Potter and the Sorcerer's Stone",
+                    ReleaseDate = DateTime.Parse("2001-11-16"),
+                    Genre = "Fantasy",
+                    Rating = "R",
+                    Price = 14.99M
+                },
+
+                new Movie
+                {
+                    Title = "The Chronicles of Narnia: The Lion, the Witch and the Wardro",
+                    ReleaseDate = DateTime.Parse("2005-12-09"),
+                    Genre = "Fantasy",
+                    Rating = "R",
+                    Price = 12.99M
+                },
+
+                new Movie
+                {
+                    Title = "Demon Slayer: To the Hashira Training",
+                    ReleaseDate = DateTime.Parse("2025-02-23"),
+                    Genre = "Western",
+                    Rating = "R",
+                    Price = 16.99M
                 }
             );
             context.SaveChanges();
